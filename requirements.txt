@@ -1,0 +1,9 @@
+setuptools==56.2.0
+torch==1.12.1
+transformers==4.22.1
+numpy==1.23.3
+pandas==1.5.0
+pyserini==0.19.2
+pytrec_eval==0.5
+scikit-learn==1.1.2
+faiss-cpu==1.7.4
