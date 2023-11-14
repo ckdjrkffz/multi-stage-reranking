@@ -51,7 +51,7 @@ source preprocess_dataset.sh hotpotqa
 
 ## Training
 
-### normal (singlewise) model
+### Normal (pointwise) LM
 
 ```
 python train.py \
@@ -69,7 +69,7 @@ python train.py \
 --source_block_size 512
 ```
 
-### pairwise model
+### Pairwise LM
 
 ```
 python train.py \
@@ -101,7 +101,7 @@ python -u evaluate.py \
 ```
 
 
-### BM25 + normal LM
+### BM25 + Normal LM
 
 ```
 python -u evaluate.py \
@@ -117,7 +117,7 @@ python -u evaluate.py \
 ./model/fine_tuned_models/MiniLM_L6_H384_msmarco_classification_all_e10_ns1_lr5e-5_s0
 ```
 
-### BM25 + normal LM + Ensemble
+### BM25 + Normal LM + Ensemble
 
 - Prepare multiple models, e.g., by training models with multiple seeds.
 
@@ -139,7 +139,7 @@ python -u evaluate.py \
 ./model/fine_tuned_models/MiniLM_L6_H384_msmarco_classification_all_e10_ns1_lr5e-5_s2
 ```
 
-### BM25 + normal LM + Pairwise
+### BM25 + Normal LM + Pairwise LM
 
 ```
 python -u evaluate.py \
