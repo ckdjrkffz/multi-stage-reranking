@@ -1,5 +1,5 @@
 # Text Retrieval with Multi-Stage Re-Ranking Models
-- This is the code for the paper "Text Retrieval with Multi-Stage Re-Ranking Models". arXiv link will be released.
+- This is the code for the paper "Text Retrieval with Multi-Stage Re-Ranking Models". [arXiv](https://arxiv.org/pdf/2311.07994.pdf)
 
 
 ## Requirment
